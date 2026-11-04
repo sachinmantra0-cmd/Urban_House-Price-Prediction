@@ -1,0 +1,54 @@
+{
+  "property_id": {
+    "type": "string",
+    "description": "Unique identifier for catalogue properties"
+  },
+  "title": {
+    "type": "string",
+    "description": "Listing title containing BHK, category, and locality"
+  },
+  "city": {
+    "type": "string",
+    "description": "Major Indian metropolitan city (Bangalore, Mumbai, Pune, etc.)"
+  },
+  "locality": {
+    "type": "string",
+    "description": "Neighborhood/Locality within the city"
+  },
+  "property_type": {
+    "type": "string",
+    "description": "Residential category (Apartment, Independent House, Villa)"
+  },
+  "bhk": {
+    "type": "integer",
+    "description": "Number of bedrooms (Bedroom-Hall-Kitchen)"
+  },
+  "bathrooms": {
+    "type": "integer",
+    "description": "Number of bathrooms in property"
+  },
+  "area_sqft": {
+    "type": "float",
+    "description": "Total built-up area in square feet"
+  },
+  "balcony": {
+    "type": "integer",
+    "description": "1 if balcony is present, 0 otherwise"
+  },
+  "price_inr": {
+    "type": "float",
+    "description": "Genuine target price in Indian National Rupees (\u20b9)"
+  },
+  "price_lakhs": {
+    "type": "float",
+    "description": "Price scaled in Indian Lakhs (1 Lakh = \u20b9100,000)"
+  },
+  "price_per_sqft": {
+    "type": "float",
+    "description": "Price per square foot (strictly for analysis, NOT ML feature)"
+  },
+  "description": {
+    "type": "string",
+    "description": "Detailed listing description"
+  }
+}

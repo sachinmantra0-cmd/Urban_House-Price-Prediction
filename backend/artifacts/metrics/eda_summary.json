@@ -1,0 +1,57 @@
+{
+  "dataset_name": "Indian 7-City Real Estate Dataset (Kaggle)",
+  "source_author": "rakkesharv",
+  "total_records": 14449,
+  "features": [
+    "property_id",
+    "title",
+    "city",
+    "locality",
+    "property_type",
+    "bhk",
+    "bathrooms",
+    "area_sqft",
+    "balcony",
+    "price_inr",
+    "price_lakhs",
+    "price_per_sqft",
+    "description"
+  ],
+  "cities": {
+    "Bangalore": 4479,
+    "Pune": 2953,
+    "New Delhi": 2144,
+    "Chennai": 1593,
+    "Kolkata": 1390,
+    "Mumbai": 1351,
+    "Hyderabad": 539
+  },
+  "property_types": {
+    "Apartment": 9684,
+    "Independent House": 4089,
+    "Villa": 676
+  },
+  "price_stats_lakhs": {
+    "mean": 105.17,
+    "median": 65.0,
+    "std": 160.43,
+    "min": 5.0,
+    "max": 3500.0,
+    "p25": 38.0,
+    "p75": 114.0
+  },
+  "area_stats_sqft": {
+    "mean": 1276.08,
+    "median": 1000.0,
+    "min": 150.0,
+    "max": 12000.0
+  },
+  "bhk_distribution": {
+    "2": 5694,
+    "1": 3248,
+    "3": 3121,
+    "4": 988,
+    "5": 591,
+    "6": 297
+  }
+}

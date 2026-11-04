@@ -1,0 +1,54 @@
+{
+  "raw_features": [
+    "city",
+    "property_type",
+    "bhk",
+    "bathrooms",
+    "area_sqft",
+    "balcony"
+  ],
+  "categorical_features": [
+    "city",
+    "property_type"
+  ],
+  "numerical_features": [
+    "bhk",
+    "bathrooms",
+    "area_sqft",
+    "balcony",
+    "area_per_bhk"
+  ],
+  "transformed_features": [
+    "city_Bangalore",
+    "city_Chennai",
+    "city_Hyderabad",
+    "city_Kolkata",
+    "city_Mumbai",
+    "city_New Delhi",
+    "city_Pune",
+    "property_type_Apartment",
+    "property_type_Independent House",
+    "property_type_Villa",
+    "bhk",
+    "bathrooms",
+    "area_sqft",
+    "balcony",
+    "area_per_bhk"
+  ],
+  "target": "price_lakhs",
+  "target_display_unit": "INR (converted from Lakhs: \u20b91 Lakh = 100,000 INR)",
+  "cities": [
+    "Bangalore",
+    "Pune",
+    "New Delhi",
+    "Chennai",
+    "Kolkata",
+    "Mumbai",
+    "Hyderabad"
+  ],
+  "property_types": [
+    "Apartment",
+    "Independent House",
+    "Villa"
+  ]
+}

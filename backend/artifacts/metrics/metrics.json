@@ -1,0 +1,51 @@
+{
+  "models": {
+    "Linear Regression": {
+      "MAE": 51.6753,
+      "MSE": 13547.6974,
+      "RMSE": 116.3946,
+      "R2": 0.3972,
+      "training_time_seconds": 0.01
+    },
+    "Decision Tree": {
+      "MAE": 48.4298,
+      "MSE": 13651.001,
+      "RMSE": 116.8375,
+      "R2": 0.3926,
+      "training_time_seconds": 0.02
+    },
+    "Random Forest": {
+      "MAE": 46.0032,
+      "MSE": 12696.9515,
+      "RMSE": 112.6808,
+      "R2": 0.4351,
+      "training_time_seconds": 0.54
+    },
+    "Gradient Boosting": {
+      "MAE": 45.7515,
+      "MSE": 11759.7494,
+      "RMSE": 108.4424,
+      "R2": 0.4768,
+      "training_time_seconds": 1.85
+    },
+    "XGBoost": {
+      "MAE": 45.616,
+      "MSE": 12318.8286,
+      "RMSE": 110.9902,
+      "R2": 0.4519,
+      "training_time_seconds": 0.22
+    }
+  },
+  "best_model": "Gradient Boosting",
+  "best_metrics": {
+    "MAE": 45.7515,
+    "MSE": 11759.7494,
+    "RMSE": 108.4424,
+    "R2": 0.4768,
+    "training_time_seconds": 1.85
+  },
+  "test_samples": 2890,
+  "train_samples": 11559,
+  "total_samples": 14449,
+  "timestamp": "2026-10-13T13:49:52.170466"
+}

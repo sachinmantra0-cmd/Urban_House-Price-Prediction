@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="grad_exterior_1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#grad_exterior_1)" />
+  <rect x="40" y="40" width="720" height="520" rx="16" fill="none" stroke="#3b82f6" stroke-width="2" stroke-dasharray="6 6" opacity="0.4" />
+  <circle cx="400" cy="240" r="80" fill="#3b82f6" opacity="0.15" />
+  <text x="400" y="248" font-family="sans-serif" font-size="34" font-weight="bold" fill="#3b82f6" text-anchor="middle">Exterior Architecture #1</text>
+  <text x="400" y="330" font-family="sans-serif" font-size="20" fill="#f8fafc" text-anchor="middle">Contemporary Indian Residential Facade</text>
+  <text x="400" y="370" font-family="sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">HouseEstiMate Curated Illustrative Sample Image</text>
+  <rect x="290" y="420" width="220" height="36" rx="8" fill="#3b82f6" opacity="0.2" />
+  <text x="400" y="444" font-family="sans-serif" font-size="13" font-weight="600" fill="#3b82f6" text-anchor="middle">PROVENANCE: DEMO PHOTO</text>
+</svg>

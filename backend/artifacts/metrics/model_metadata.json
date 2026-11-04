@@ -1,0 +1,13 @@
+{
+  "model_name": "Gradient Boosting",
+  "model_type": "GradientBoostingRegressor",
+  "dataset": "Real Estate Data from 7 Indian Cities (Kaggle)",
+  "train_size": 11559,
+  "test_size": 2890,
+  "feature_count": 15,
+  "test_r2": 0.4768,
+  "test_rmse_lakhs": 108.4424,
+  "test_mae_lakhs": 45.7515,
+  "trained_at": "2026-10-13 13:49:52",
+  "random_state": 42
+}

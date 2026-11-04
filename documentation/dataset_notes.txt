@@ -1,0 +1,39 @@
+PROJECT: House Price Prediction Using Machine Learning and Explainable AI
+
+DATA SOURCE:
+Kaggle
+
+DATASET NAME:
+Real Estate Data from 7 Indian Cities
+
+DATASET URL:
+https://www.kaggle.com/datasets/rakkesharv/real-estate-data-from-7-indian-cities
+
+LOCAL DATASET LOCATION:
+data/raw/
+
+TARGET VARIABLE:
+To be identified after inspecting the dataset.
+
+PRICE UNIT:
+To be verified after inspecting the dataset.
+
+CITIES COVERED:
+To be verified.
+
+LOCALITY INFORMATION:
+To be verified.
+
+BHK AND BATHROOM FEATURES:
+To be verified.
+
+AREA FEATURES:
+To be verified.
+
+LICENCE AND USAGE CONDITIONS:
+To be checked on Kaggle.
+
+NOTES:
+Do not modify the original dataset.
+Inspect missing values, duplicate records, price units,
+feature types and data quality before training.
